@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./mpstyle.css">
+</head>
+<body>
+    <header>
+        <img src="playlist.png" alt="playlist" id="playlist-img">
+        <h2>FEEL THE MUSIC</h2>
+        <img src="music.png" alt="music" id="music-img">
+    </header>
+    <main>
+        <div class="left">
+            <div class="song-image">
+
+            </div>
+            <div class="volume-div">
+                <div class="volume-img">
+                    <img src="volumee.png" alt="volume" id="vol-png">
+                </div>
+                <input type="range" id="volume-range" onchange="volume()">
+            </div>
+        </div>
+        <div class="right">
+            <div class="details">
+                <h3 id="song-name">Jaane Tu</h3>
+                <h5 id="song-singer">Arijit Singh</h5>
+            </div>
+
+            <input type="range" id="song-duration" onchange="duration()">
+            <div class="controls">
+                <div class="prev-img">
+                    <img src="previous.png" alt="previous" id="prev-img" onclick="previousSong()">
+                </div>
+                <div class="play-pause">
+                    <img src="play.png" alt="play" id="play-pause" onclick="playPause()">
+                </div>
+                <div class="next-img">
+                    <img src="next.png" alt="next" id="next-img" onclick="nextSong()">
+                </div>
+                
+            </div>
+        </div>
+        
+            
+        
+        
+    </main>
+    <script src="./mpscript.js"></script>
+</body>
+</html>
