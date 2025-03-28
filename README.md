@@ -7,7 +7,6 @@ Features
 -Next/Previous track navigation
 -Volume control with mute functionality
 -Song progress bar with manual seeking
--Playlist sidebar with a blurred background
 -Auto-play next song when the current one ends
 
 Technologies Used 
